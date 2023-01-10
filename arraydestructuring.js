@@ -10,7 +10,7 @@ console.log(name);//"Sarah"
 let introduction = ["Hello", "I" , "am", "Sarah"];
 let [greeting, pronoun] = introduction;
 
-console.log(greeting);//"Hello"
+console.log(greeting);//"Hello///am"
 console.log(pronoun);//"I
 
 et [greeting, pronoun] = ["Hello", "I" , "am", "Sarah"];
