@@ -14,6 +14,8 @@ function characterMode(string) {
  
  duplicate.forEach((item, key) => {
     max = Math.max(max, item)
+    =
+  
     if(item !== max) {
       duplicate.delete(key) 
    }})

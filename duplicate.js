@@ -2,14 +2,11 @@ const arry = [1, 2, 1, 3, 4, 3, 5];
 
 
 //show dublicate
-const duplicates = arry.filter((item, index) => index !== arry.indexOf(item))
-console.log(duplicates)
+const showDuplicates = arry.filter((item, index) => index !== arry.indexOf(item))
+console.log(showDuplicates)
 
-let duplicates = arry.filter((c, index) => { //show duplicate
-    return arry.indexOf(c) !== index;
-});
 
-let duplicates = arry.filter((c, index) => { //delete duplicate
+let deletedDuplicates = arry.filter((c, index) => { //delete duplicate
     return arry.indexOf(c) == index;
 });
 
